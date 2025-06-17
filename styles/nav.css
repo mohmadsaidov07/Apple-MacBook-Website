@@ -1,0 +1,71 @@
+.header__nav {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  font-size: 0.9em;
+  font-weight: 100;
+  padding-left: 20px;
+}
+
+.icon_barsMenu {
+  display: none;
+}
+
+.nav__devLink {
+  height: 44px;
+  padding: 16px 8px 12px 0px;
+  transition: color linear 0.2s;
+  color: rgb(190, 190, 190);
+}
+
+.nav__icon {
+  height: 42px;
+  padding: 12px 8px 12px 0px;
+  transition: color linear 0.2s;
+  text-align: center;
+  fill: rgb(190, 190, 190);
+}
+
+.nav__icon__path {
+  transition: fill linear 0.2s;
+}
+
+.nav__icon:hover .nav__icon__path {
+  fill: white;
+}
+
+.nav__devLink:hover {
+  color: white;
+}
+
+@media (max-width: 834px) {
+  .nav__devLink {
+    visibility: hidden;
+    font-size: 2px;
+  }
+
+  .icon_barsMenu {
+    display: inline-block;
+    height: 3.5em;
+  }
+
+  .nav__icon {
+    height: 3.5em;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .nav__apple {
+    position: relative;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav__devLink {
+    visibility: hidden;
+    font-size: 0px;
+  }
+}
