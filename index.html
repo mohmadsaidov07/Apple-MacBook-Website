@@ -42,18 +42,40 @@
             44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
             /></svg
         ></a>
-        <a class="nav__devLink" href="#">Store</a>
-        <a class="nav__devLink" href="#">Mac</a>
-        <a class="nav__devLink" href="#">iPad</a>
-        <a class="nav__devLink" href="#">iPhone</a>
-        <a class="nav__devLink" href="#">Watch</a>
-        <a class="nav__devLink" href="#">Vision</a>
-        <a class="nav__devLink" href="#">AirPods</a>
-        <a class="nav__devLink" href="#">TV & Home</a>
-        <a class="nav__devLink" href="#">Entertainment</a>
-        <a class="nav__devLink" href="#">Accessories</a>
-        <a class="nav__devLink" href="#">Support</a>
-        <a href="#"
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Store</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Mac</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">iPad</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">iPhone</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Watch</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Vision</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">AirPods</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">TV & Home</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Entertainment</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Accessories</a>
+        </button>
+        <button class="nav__devBtn" onclick="windowPopUp()">
+          <a class="nav__devLink" href="#">Support</a>
+        </button>
+        <btn class="nav_btn" id="search_btn" onclick="windowPopUp()"
           ><svg
             class="nav__icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +86,8 @@
               fill="rgb(200,200,200)"
               d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
             /></svg
-        ></a>
-        <a href="#"
+        ></btn>
+        <btn class="nav_btn" id="bag_btn" onclick="windowPopUp()"
           ><svg
             class="nav__icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +98,8 @@
               fill="rgb(200,200,200)"
               d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
             /></svg
-        ></a>
-        <a href="#">
+        ></btn>
+        <btn class="nav_btn" id="menu_btn" onclick="windowPopUp()">
           <svg
             class="nav__icon icon_barsMenu"
             xmlns="http://www.w3.org/2000/svg"
@@ -88,11 +110,16 @@
               d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
             />
           </svg>
-        </a>
+        </btn>
       </nav>
       <div class="mac-add">
-        Buy Macbook Pro starting at $1499 with education savings, get AirPods or
-        an eligible accessory of your choice. <a href="#">Shop</a>
+        <p class="mac-add-text">
+          Buy Macbook Pro starting at $1499 with education savings, get AirPods
+          or an eligible accessory of your choice.<sup class="mac-add-triangle"
+            >&#9651;</sup
+          >
+          <a class="mac-add-shop" href="#">Shop ></a>
+        </p>
       </div>
     </header>
     <main></main>

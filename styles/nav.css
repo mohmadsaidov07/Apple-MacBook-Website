@@ -3,19 +3,21 @@
   max-width: 1024px;
   margin: 0 auto;
   justify-content: space-between;
-  align-items: center;
   height: 44px;
   font-size: 0.9em;
   font-weight: 100;
-  padding-left: 20px;
 }
 
 .icon_barsMenu {
   display: none;
 }
 
-.nav__devLink {
+.nav__devBtn {
+  background-color: transparent;
   height: 44px;
+}
+
+.nav__devLink {
   padding: 16px 8px 12px 0px;
   transition: color linear 0.2s;
   color: rgb(190, 190, 190);
@@ -41,6 +43,20 @@
   color: white;
 }
 
+.nav_btn:hover {
+  cursor: pointer;
+}
+
+.header-pop {
+  height: 50vh;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  background-color: rgb(20, 20, 20);
+  transition: height ease-in-out 0.15s;
+}
+
 @media (max-width: 834px) {
   .nav__devLink {
     visibility: hidden;
@@ -61,11 +77,14 @@
   .nav__apple {
     position: relative;
   }
+
+  .header-pop {
+    padding: 0;
+  }
 }
 
 @media (max-width: 600px) {
   .nav__devLink {
-    visibility: hidden;
     font-size: 0px;
   }
 }

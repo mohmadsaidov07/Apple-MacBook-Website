@@ -1,8 +1,29 @@
 .mac-add {
   background-color: rgb(30, 30, 30);
   color: rgb(230, 230, 230);
-  height: 46px;
-  text-align: center;
-  padding: 15px 0px;
+  padding: 12px 0px;
   font-size: 1em;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+}
+
+.mac-add-pop {
+  position: absolute;
+  top: 44px;
+}
+
+.mac-add-text {
+  width: 70%;
+  margin: 0% 15%;
+  font-weight: 100;
+}
+
+.mac-add-triangle {
+  text-decoration: underline;
+  font-size: 0.5em;
+}
+
+.mac-add-shop {
+  color: dodgerblue;
 }
